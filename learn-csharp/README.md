@@ -1,2 +1,0 @@
-# cSharpLearning
-actividades clase, C#

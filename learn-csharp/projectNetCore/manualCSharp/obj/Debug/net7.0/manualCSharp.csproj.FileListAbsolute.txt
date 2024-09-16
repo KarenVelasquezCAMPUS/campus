@@ -1,5 +1,0 @@
-/home/apolm01-015/Documents/projectNetCore/manualCSharp/obj/Debug/net7.0/manualCSharp.csproj.AssemblyReference.cache
-/home/apolm01-015/Documents/projectNetCore/manualCSharp/obj/Debug/net7.0/manualCSharp.GeneratedMSBuildEditorConfig.editorconfig
-/home/apolm01-015/Documents/projectNetCore/manualCSharp/obj/Debug/net7.0/manualCSharp.AssemblyInfoInputs.cache
-/home/apolm01-015/Documents/projectNetCore/manualCSharp/obj/Debug/net7.0/manualCSharp.AssemblyInfo.cs
-/home/apolm01-015/Documents/projectNetCore/manualCSharp/obj/Debug/net7.0/manualCSharp.csproj.CoreCompileInputs.cache

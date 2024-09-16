@@ -1,2 +1,0 @@
-# mibodega
-proyecto bodega, CSharp

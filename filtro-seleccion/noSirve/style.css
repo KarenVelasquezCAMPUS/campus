@@ -1,0 +1,162 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+}
+
+.fondo{
+    background-image: url("https://i.pinimg.com/564x/8a/33/d8/8a33d8925255a4098a3925226b83de3c.jpg");
+    width: 100%;
+    display: block;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #FFFF;
+}
+
+.left_tittle h3{
+    color: aqua;
+}
+
+.boton-modal-container{
+    border-radius: 25%;
+    background-color: aliceblue;
+}
+
+.form-content{
+    width: 100%;
+    max-width: 450px;
+    background-color: #02001b;
+    color: white;
+    padding: 50px 60px 70px;
+    text-align: center;
+    border-radius: 25px;
+}
+
+.form-content h1{
+    font-size: 30px;
+    margin-bottom: 60px;
+    color: #FFFF;
+    position: relative;
+}
+
+.form-content h1 ::after{
+    content: '';
+    width: 30px;
+    height: 4px;
+    border-radius: 3px;
+    background: greenyellow;
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.input-field{
+    background-color: #02001b7a;
+    margin: 15px 0;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    transition: max-height 0.5s;
+    overflow: hidden;
+}
+
+.input{
+    width: 100%;
+    background: transparent;
+    border: 0;
+    outline: none;
+    padding: 18px 15px;
+    color: #FFFF;
+}
+
+.input::placeholder {
+    color:#FFFF;
+}
+
+.input-field i{
+    margin-left: 15px;
+    color: aquamarine;
+}
+
+form p{
+    color: #FFFF;
+    text-align: center;
+    font-size: 13px;
+}
+
+form p a{
+    color: aquamarine;
+    margin-left: 5px;
+}
+
+.btn-field {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-field button{
+    flex-basis: 48%;
+    font-size: 16px;
+    background-color: aquamarine;
+    color: #FFFF;
+    height: 40px;
+    border-radius: 10px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    transition: background 1s;
+}
+
+.input-group{
+    height: 250px;
+}
+
+.btn-field button.disable{
+    background-color: aliceblue;
+    color: #02001b;
+}
+
+.cta{
+    display: inline-block;
+    padding: 7px 0;
+    width: 100px;
+    border: 1px solid #FFFF;
+    border-radius: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.modal-container{
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal{
+    width: 40%;
+    height: 50%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: relative;
+    transition: transform 1s;
+    transform: translateY(0%);
+}
+ */
