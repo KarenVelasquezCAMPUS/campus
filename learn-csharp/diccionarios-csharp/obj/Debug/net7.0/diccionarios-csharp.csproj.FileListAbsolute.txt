@@ -1,0 +1,15 @@
+/home/apolm01-015/Documents/diccionarios-csharp/bin/Debug/net7.0/diccionarios-csharp
+/home/apolm01-015/Documents/diccionarios-csharp/bin/Debug/net7.0/diccionarios-csharp.deps.json
+/home/apolm01-015/Documents/diccionarios-csharp/bin/Debug/net7.0/diccionarios-csharp.runtimeconfig.json
+/home/apolm01-015/Documents/diccionarios-csharp/bin/Debug/net7.0/diccionarios-csharp.dll
+/home/apolm01-015/Documents/diccionarios-csharp/bin/Debug/net7.0/diccionarios-csharp.pdb
+/home/apolm01-015/Documents/diccionarios-csharp/obj/Debug/net7.0/diccionarios-csharp.csproj.AssemblyReference.cache
+/home/apolm01-015/Documents/diccionarios-csharp/obj/Debug/net7.0/diccionarios-csharp.GeneratedMSBuildEditorConfig.editorconfig
+/home/apolm01-015/Documents/diccionarios-csharp/obj/Debug/net7.0/diccionarios-csharp.AssemblyInfoInputs.cache
+/home/apolm01-015/Documents/diccionarios-csharp/obj/Debug/net7.0/diccionarios-csharp.AssemblyInfo.cs
+/home/apolm01-015/Documents/diccionarios-csharp/obj/Debug/net7.0/diccionarios-csharp.csproj.CoreCompileInputs.cache
+/home/apolm01-015/Documents/diccionarios-csharp/obj/Debug/net7.0/diccionarios-csharp.dll
+/home/apolm01-015/Documents/diccionarios-csharp/obj/Debug/net7.0/refint/diccionarios-csharp.dll
+/home/apolm01-015/Documents/diccionarios-csharp/obj/Debug/net7.0/diccionarios-csharp.pdb
+/home/apolm01-015/Documents/diccionarios-csharp/obj/Debug/net7.0/diccionarios-csharp.genruntimeconfig.cache
+/home/apolm01-015/Documents/diccionarios-csharp/obj/Debug/net7.0/ref/diccionarios-csharp.dll

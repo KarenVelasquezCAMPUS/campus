@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "FBzRHegpSUrKWBdRwVMjfppxANd6j+Mqix53DviocZKaHlI5B/eJhNIe8TyaVu6CVMgf46xZ74lDmcnk3Z+Auw==",
+  "success": true,
+  "projectFilePath": "/home/apolm01-015/Documents/manejoJSON/manejoJson.csproj",
+  "expectedPackageFiles": [
+    "/home/apolm01-015/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
