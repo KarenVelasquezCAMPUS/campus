@@ -1,2 +1,0 @@
-# pruebaSeleccion
-primer filtro, javascript
