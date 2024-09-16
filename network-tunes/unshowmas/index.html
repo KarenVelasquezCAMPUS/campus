@@ -1,0 +1,215 @@
+
+<!Doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Un show mas</title>
+    <!--Bootstrap 5.0.2-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!--Hojas de estilos CSS-->
+    <link rel="stylesheet" href="./style.css">
+    <!--Icon-->
+    <link rel="icon" href="./imagenes/logoNT.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue&family=Lilita+One&display=swap" rel="stylesheet">
+
+    
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    
+    <header>
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-color: black;">
+        <div class="container-fluid">
+          <a class="img-fluid d-block mx-auto" width="6%" href="../index.html">
+            <img src="./imagenes/logoNT.png" alt="network tunes" class="img-fluid d-block mx-auto" width="25%" >
+          </a>
+        </div>
+      </nav>
+    </header>
+    <!--Carousel Imagenes-->
+  <div id="myCarousel" class="carousel slide " data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./imagenes/fondo1.jpg" alt="fondo1">
+        <div class="container">
+          <div class="carousel-caption">
+            <img class="img-fluid" src="./imagenes/fondo1.1.jpg" alt="fondo">
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./imagenes/fondo2.2.jpg" alt="fondo2">
+        <div class="container">
+          <div class="carousel-caption">
+            <img class="img-fluid" src="./imagenes/fondo2.png" alt="fondo2.2">
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./imagenes/fondopark.jpg" alt="fondo-park">
+        <div class="container">
+          <div class="carousel-caption">
+            <img class="img-fluid" src="./imagenes/fondobenson.jpg" alt="fondo-benson">
+          </div>
+        </div>
+      </div>
+      
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+    
+  </div>
+
+  <!--Descripcion personajes-->
+  <div class="container marketing">
+
+    <div class="row">
+      <div class="col-lg-4">
+        <img class="bd-placeholder-img rounded-circle personajes" src="./imagenes/mordeicon.png" alt="mordecai icon" width="140" height="140">
+        <h2>Mordecai</h2>
+        <p>Es un arrendajo azul que trabaja como jardinero en el parque. Es amable, inteligente y responsable, pero a menudo se ve arrastrado por los planes locos de su mejor amigo, Rigby.</p>
+      </div>
+      <div class="col-lg-4">
+        <img class="bd-placeholder-img rounded-circle personajes" src="./imagenes/rigby.png" alt="rigby icon" width="140" height="140">
+        <h2>Rigby</h2>
+        <p>Es un mapache que también trabaja como jardinero en el parque. Es travieso, egoísta y le encanta causar problemas, lo que lleva a Mordecai y a él a meterse en problemas.</p>
+      </div>
+      <div class="col-lg-4">
+        <img class="bd-placeholder-img rounded-circle personajes" src="./imagenes/benson.png" alt="benson icon" width="140" height="140">
+        <h2>Benson</h2>
+        <p> Es el jefe de Mordecai y Rigby y es una máquina expendedora con brazos y piernas. Es un poco temperamental y se frustra fácilmente con los constantes errores de sus empleados.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-4">
+        <img class="bd-placeholder-img rounded-circle personajes" src="./imagenes/musculoso.jpg" alt="musculoso icon" width="140" height="140">
+        <h2>Musculoso</h2>
+        <p>Un hombre musculoso y presumido que trabaja en el parque y es amigo de Mordecai y Rigby.</p>
+      </div>
+      <div class="col-lg-4">
+        <img class="bd-placeholder-img rounded-circle personajes" src="./imagenes/fantasmin.png" alt="fantasmin icon" width="140" height="140">
+        <h2>Fantasmano</h2>
+        <p> Es un fantasma con una mano gigante y blanca que vive en el sótano del parque. Aunque es un poco tímido, es muy útil en situaciones difíciles y siempre está dispuesto a ayudar.</p>
+      </div>
+      <div class="col-lg-4">
+        <img class="bd-placeholder-img rounded-circle personajes" src="./imagenes/skip.png" alt="skip icon" width="140" height="140">
+        <h2>Skip</h2>
+        <p>Es un yeti que trabaja como conserje en el parque. Es un personaje sabio y misterioso que tiene la capacidad de volver atrás en el tiempo para arreglar errores en el pasado.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-4">
+        <img class="bd-placeholder-img rounded-circle personajes" src="./imagenes/papaleta.png" alt="papaleta icon" width="140" height="140">
+        <h2>Papaleta</h2>
+        <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p>
+      </div>
+      <div class="col-lg-4">
+        <img class="bd-placeholder-img rounded-circle personajes" src="./imagenes/margarita.png" alt="margarita icon" width="140" height="140">
+        <h2>Margarita</h2>
+        <p>Ella es uno de los pocos personajes Animales en la serie que usa ropa. Mordecai se sentía atraído por ella, y siempre estaba buscando excusas para ir a la Cafetería a verla.</p>
+      </div>
+      <div class="col-lg-4">
+        <img class="bd-placeholder-img rounded-circle personajes" src="./imagenes/eileen.jpg" alt="eileen icon" width="140" height="140">
+        <h2>Eileen</h2>
+        <p>Es algo tímida, aunque también es inteligente, puede ser genial, y también amable.</p>
+      </div>
+    </div>
+
+
+    <hr class="featurette-divider">
+
+    <!--Juegos-->
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">Escape Sideral - Un show mas</h2>
+        <p class="lead">"Escape Sideral" es un juego basado en el episodio "Escape de la Isla del Terror" de la serie de televisión "Un Show Más". En este juego, los jugadores toman el papel de los personajes Mordecai y Rigby, quienes se han estrellado en una isla misteriosa y deben encontrar la manera de escapar.</p>
+      </div>
+      <div class="col-md-5">
+        <!-- <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg> -->
+        <a href="https://spa.cartoonnetworkla.com/juego/escape-sideral-un-show-mas/play" target="_blank">
+          <img class="img-fluid personajes" src="./imagenes/showgame1.png" alt="game 1" width="500" height="500"> 
+          </a>
+
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading">Regular Show Fist Punch 2 </h2>
+        <p class="lead">Una nueva aventura, llena de combates, espera a Mordecai y Rigby, los 2 héroes del espectáculo regular de Cartoon Network. Solo o dos en la misma computadora, lucha contra las múltiples oleadas de enemigos y los duros jefes que te esperan en los 30 niveles de este juego beat'em up.</p>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <a href="https://gombis.com.co/g/regular-show-fist-punch-2" target="_blank">
+        <img class="img-fluid personajes" src="./imagenes/showgame2.jpg" alt="game 2">
+        </a>
+
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">Gigantes batalla</h2>
+        <p class="lead">"Gigantes Batallas" es un juego de lucha basado en la serie de televisión "Un Show Más". En este juego, los jugadores controlan a uno de los personajes de la serie y luchan contra otros personajes en batallas épicas.</p>
+      </div>
+      <div class="col-md-5">
+        <a href="https://gombis.com.co/g/regular-show-fist-punch-2" target="_blank">
+          <img class="img-fluid personajes" src="./imagenes/showgame3.jpg" alt="game 3">
+          </a>  
+
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+
+
+  </div>
+
+
+  <!-- FOOTER -->
+  <footer class="container">
+    <p class="float-end"><a href="#"> <img src="./imagenes/flechaarriba.png" alt="flecha arruva" width="50"> </a></p>
+    <p>&copy; 2023 Company, Inc. &middot; </p>
+    <img src="./imagenes/logof.png" alt="logo footer" width="100">
+    <img class="img-fluid" src="./imagenes/footer.png" alt="footer" width="100" height="500">
+  </footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+      
+  </body>
+</html>

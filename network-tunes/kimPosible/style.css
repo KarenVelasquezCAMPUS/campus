@@ -1,0 +1,61 @@
+body {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    color: black;
+    font-family: 'Comic Neue', cursive;
+    font-family: 'Lilita One', cursive;
+}
+
+/* .bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+} */
+  
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
+/* 
+body{
+    background-image: url(/Escandalosos/6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+} */
+
+#personajes{
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+#nomnom{
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+
+#nomnom:hover{
+    content: url(/network_tunes-bootstrap/Escandalosos/8aa.png);
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+  
+.card:hover{
+    transform: scale(1.05) ;
+}
+
+.card-body{
+    flex: none;
+    padding: 1rem 1rem;
+}
